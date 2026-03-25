@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class coinCollect : MonoBehaviour
+public class coinScript : MonoBehaviour
 {
 
     void OnTriggerEnter(Collider other)

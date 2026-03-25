@@ -6,7 +6,7 @@ public class coinCounter : MonoBehaviour
 {
 
     public int coins = 0;
-    // Start is called before the first frame update
+
     public void collect()
     {
         coins ++;

@@ -1,1 +1,1 @@
-# Project Files fo Unity Algonova course
+# Project Files for Unity Algonova course

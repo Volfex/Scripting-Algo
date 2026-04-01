@@ -6,12 +6,14 @@ using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
-    public int health = 10;
+    public int maxHealth = 10;
+    public int health;
     public AudioSource audio;
     public AudioClip damageSound;
     // Start is called before the first frame update
     void Start()
     {
+        health = maxHealth;
     }
     // Update is called once per frame
     void Update()

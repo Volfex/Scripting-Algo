@@ -6,6 +6,7 @@ public class Temperature : MonoBehaviour
 {
     public Health health;
     public float temp = 36.6f;
+    public float normalTemp = 36.6f;
     public float tempFreeze = 34f;
     public float tempDecreseSpeed = 0.05f;
     public int freezeDamage = 2;
